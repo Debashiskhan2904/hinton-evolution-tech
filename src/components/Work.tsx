@@ -9,6 +9,16 @@ export default function Work({ isPage, limit }: { isPage?: boolean, limit?: numb
   const [activeCategory, setActiveCategory] = useState('All Projects');
 
   const projects = [
+     {
+      title: 'Underground Cafe',
+      category: 'Business Sites',
+      badge: 'Cafe',
+      description: 'React.js • Cafe UI',
+      icon: '☕',
+      theme: 'orange',
+      link: 'https://underground-caferrr.vercel.app/',
+      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=2694"
+    },
     {
       title: 'HAVELI RESTAURANT',
       category: 'Business Sites',
