@@ -9,7 +9,7 @@ export default function Work({ isPage, limit }: { isPage?: boolean, limit?: numb
   const [activeCategory, setActiveCategory] = useState('All Projects');
 
   const projects = [
-     {
+    {
       title: 'Underground Cafe',
       category: 'Business Sites',
       badge: 'Cafe',
