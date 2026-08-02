@@ -123,7 +123,7 @@ export default function Nav({ user, isAdmin, onLogin, onLogout, onOpenAdmin }: {
                     >
                       <div className="flex items-center gap-4">
                         {isActive ? (
-                          <motion.div layoutId="activeDotMobile" className="w-2 h-2 rounded-full bg-indigo-500 shadow-[0_0_10px_rgba(99,102,241,0.8)]" />
+                          <div className="w-2 h-2 rounded-full bg-indigo-500 shadow-[0_0_10px_rgba(99,102,241,0.8)]" />
                         ) : (
                           <div className="w-2 h-2 rounded-full bg-transparent" />
                         )}
