@@ -67,18 +67,16 @@ export default function Hero() {
             </motion.h1>
 
             <motion.h2 
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 1, y: 0 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.5, type: "spring", damping: 12, stiffness: 100 }}
               className="text-xl sm:text-2xl md:text-3xl font-bold text-white/90 mb-4 tracking-tight max-w-2xl mx-auto"
             >
               Enterprise-Grade Web Solutions for Ambitious Brands
             </motion.h2>
 
             <motion.p 
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 1, y: 0 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.6, type: "spring", damping: 12, stiffness: 100 }}
               className="text-white/60 text-base sm:text-lg md:text-xl max-w-lg mb-10 font-light leading-relaxed mx-auto"
             >
               Premium website design, development & management for businesses ready to dominate their market online. From concept to conversion — we handle everything.
