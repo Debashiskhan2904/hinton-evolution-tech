@@ -12,7 +12,7 @@ export const trackEvent = (eventName: string, eventParams?: Record<string, any>)
 
 export const identifyUser = (userId: string, userData?: Record<string, any>) => {
   if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
-    window.gtag('config', 'G-EHL1TGDB82', {
+    window.gtag('config', 'G-YN0CRMY2P0', {
       user_id: userId,
       ...userData
     });
