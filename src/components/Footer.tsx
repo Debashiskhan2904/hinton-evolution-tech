@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { ArrowUpRight, Instagram, Facebook } from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
 
 export default function Footer() {
@@ -55,14 +55,6 @@ export default function Footer() {
             <p className="text-sm font-light leading-relaxed text-white/50 max-w-sm mb-8">
               Premium website design, development & management. Based in India, serving clients worldwide with excellence.
             </p>
-            <div className="flex items-center gap-4">
-              <a href="https://www.facebook.com/profile.php?id=61590060603196" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-white/50 hover:bg-[#00e5ff] hover:border-[#00e5ff] hover:text-black transition-all duration-300 shadow-sm hover:shadow-[0_0_15px_rgba(0,229,255,0.4)]">
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="https://www.instagram.com/_hinton.evolution.tech_?igsh=MTVscDVpOWN0cGUxMw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-white/50 hover:bg-[#00e5ff] hover:border-[#00e5ff] hover:text-black transition-all duration-300 shadow-sm hover:shadow-[0_0_15px_rgba(0,229,255,0.4)]">
-                <Instagram className="w-5 h-5" />
-              </a>
-            </div>
           </div>
 
           <div className="lg:col-span-3">
