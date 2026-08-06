@@ -13,39 +13,6 @@ export default function Footer() {
       <div aria-hidden="true" className="absolute bottom-0 left-1/4 w-[500px] h-[500px] bg-indigo-500/5 rounded-full blur-[120px] pointer-events-none" />
       
       <div className="max-w-7xl mx-auto relative z-10">
-        {/* Massive CTA Section - Only on Home Page */}
-        {isHomePage && (
-          <div className="mb-32">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
-              className="flex flex-col md:flex-row md:items-end justify-between gap-12 mb-12"
-            >
-              <div>
-                <span className="font-mono text-xs uppercase tracking-[0.3em] font-bold text-[#00e5ff] mb-6 block">Ready to start?</span>
-                <h2 className="text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter text-white leading-[0.9]">
-                  Let's Build<br />
-                  <span className="text-white/40">Together</span>
-                </h2>
-              </div>
-              
-              <motion.a 
-                href="/contact"
-                aria-label="Start a project"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="flex items-center justify-center min-w-[140px] w-[140px] h-[140px] md:min-w-[160px] md:w-[160px] md:h-[160px] rounded-full bg-[#00e5ff] text-black font-bold group shadow-[0_0_40px_rgba(0,229,255,0.3)] transition-shadow hover:shadow-[0_0_60px_rgba(0,229,255,0.5)] shrink-0"
-              >
-                <div className="flex flex-col items-center overflow-hidden">
-                  <span className="text-sm tracking-wider uppercase mb-1 font-black">Start Project</span>
-                  <ArrowUpRight strokeWidth={3} className="w-8 h-8 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-                </div>
-              </motion.a>
-            </motion.div>
-          </div>
-        )}
-
         {/* Links Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-24 border-t border-white/10 pt-16">
           <div className="lg:col-span-5 lg:pr-8">
